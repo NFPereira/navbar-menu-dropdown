@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav>
       <div className={styles.navbar}>
         <div className={styles.brand}>
-          <Link>Navbar Menu Dropdown</Link>
+          <Link to="/">Navbar Menu Dropdown</Link>
         </div>
         <div className={styles.menu}>
           <ul>

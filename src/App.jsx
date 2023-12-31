@@ -29,7 +29,7 @@ const App = () => {
           path="/operacoes/entrada-nota-xml"
           element={<EntradaNotaXml />}
         />
-        <Route path="/operacoes/estorno-nota" element={<EstornoNota />} />
+        <Route path="/operacoes/estorno-entrada" element={<EstornoNota />} />
         <Route path="/operacoes/venda" element={<Venda />} />
         <Route path="/operacoes/estorno-venda" element={<EstornoVenda />} />
       </Routes>
